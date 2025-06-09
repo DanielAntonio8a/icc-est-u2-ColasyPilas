@@ -49,13 +49,23 @@ public class App {
 
 ## 📌 Resultados Esperados
 
+ ```bash
+'()' es válido: true
+'()[]{}' es válido: true
+'(]' es válido: false
+'([)]' es válido: false
+'{[]}' es válido: true
+
+ ```
+
 ```bash
 Stack original:
 (tope) 5->1->4->2
 
 Stack ordenado:
 (tope) 1->2->4->5
-
  ```
+
+
 ## 📈 Conclusiones
 En esta practica se reutilizo codigo previamente visto en clase, para solusionar problemas comunes como lo serian la validacion de signos, que estos podrian servir parra loguear en alguna pagina etc. Reforzando la compresion del uso de estructuras lineales

@@ -45,7 +45,6 @@ public class Stack<T> {
         return top==null;
     }
 
-
     public void printStack(){
         NodeGeneric<T> aux= top;
         System.out.println();
